@@ -1,0 +1,89 @@
+.header{
+    margin-top: -50px; 
+    margin-bottom: 10px; 
+    width: 1335px;  
+    height: 350px; 
+    background-image: url("lucu.jpg");
+    }
+.header h1 { 
+    font-size: 40pt; 
+    padding-top: 125px; 
+    margin-left: 150px;
+    color: white;
+}
+.header h2 { 
+    margin-top: -30px; 
+    margin-left: 150px;
+    color : white; 
+}
+.Row-1 { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap:5px; 
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width:1000px;
+    height: 25px;
+  }
+.Row-2{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width:1000px;
+    height: 25px;
+}
+.Row-3{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width:1000px;
+    height: 25px;
+}
+ .Row-4{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width:1000px;
+    height: 25px;
+}
+.Row-5{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    width:1000px;
+    height: 25px;
+}
+.up_photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding-left: 150px;
+    width:500px;
+    height: 25px;
+    }
+  .up_photos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "fotoalmamater scanktp";
+    padding-bottom: 2px;
+    padding-left: 150px;
+    width:500px;
+    height: 25px;
+}
+button {
+    margin-left: 150px; 
+    margin-top: 10px;
+    height: 30px; 
+    width: 75px; 
+    color: white;
+    background-color: #DEB887;
+}
