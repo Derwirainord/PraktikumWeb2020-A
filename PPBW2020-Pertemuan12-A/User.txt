@@ -1,7 +1,0 @@
-User Admin
--username = admin
--password = mimin023
-
-User Pegawai
--username = pegawai
--password = 023
